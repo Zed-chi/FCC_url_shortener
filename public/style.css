@@ -1,0 +1,81 @@
+/****** Main Styling ******/
+html{
+    background: linear-gradient(135deg, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    min-height:100vh;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: #222;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.container {
+    min-width:500px;
+    max-width:700px;
+	padding: 20px;
+	margin: 0px auto;
+	background: rgba(90,90,90,0.2);
+	border-radius:20px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.footer {
+	margin-top: 40px;
+}
+
+.user-stories {
+  position: relative;
+  text-align: justify;
+  max-width: 700px;
+  margin: 15px auto;
+}
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: white;
+  background: rgba(12,12,12, 0.3);
+}
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+	color: #2574A9;
+}
+
+form {
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type=text] {
+  width: 220px;
+  text-align: center;
+}
